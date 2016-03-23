@@ -1,0 +1,5 @@
+mailman3-hyperkitty-plugin (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #799288)
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Tue, 22 Mar 2016 20:55:37 +0100

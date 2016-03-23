@@ -1,0 +1,22 @@
+Source: mailman3-hyperkitty-plugin
+Section: mail
+Priority: optional
+Maintainer: Pierre-Elliott Bécue <becue@crans.org>
+Build-Depends: debhelper (>= 9),
+               python3-dev (>= 3.4),
+               python3-requests,
+               python3-setuptools,
+               python3-zope.interface
+Standards-Version: 3.9.7
+Homepage: http://www.list.org/
+Vcs-Browser: https://github.com/P-EB/mailman3-hyperkitty-plugin
+Vcs-Git: https://github.com/P-EB/mailman3-hyperkitty-plugin.git -b master
+X-Python-Version: <= 3.4
+
+Package: mailman3-hyperkitty-plugin
+Architecture: any
+Depends: mailman3-core, ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: Web user interface to access GNU Mailman
+ The hyperkitty-plugin offers a way for mailman3-core
+ to forward each messages to hyperkitty archiver in order
+ to provide web based archive management.
